@@ -1,0 +1,108 @@
+/*모바일 버전*/
+@media screen and (max-width:639px){
+    body{
+        min-width: 639px;
+    }
+    .header{
+        width: 100%;
+        height: 94px;
+        display: flex;
+        margin: auto;
+        background-color: #151515;
+        /* position: relative; */
+        /* position: fixed; */
+        position: sticky;
+        top: 0;
+    }
+    
+    .logo{
+        width: 20%;
+        display: block;
+        margin: 0;
+        padding-left: 5%;
+        float: left;
+    }
+    
+    /*GNB*/
+    .gnb{
+        color: #fff;
+        width: 80%;
+        height: 40px;
+        float: left;
+        /* background-color: #212121; */
+        margin-top: 54px;
+    }
+    .gnb>ul>li{
+        font-size: 15px;
+        font-family: "나눔고딕";
+        font-weight: bold;
+        float: left;
+        width: 33%;
+        line-height: 40px;
+        text-align: center;
+        position: relative;
+    }
+    .gnb ul ul{
+        width: 100%;
+        position: absolute;
+        background-color: #303030;
+        box-sizing: border-box;
+        display: none;
+    }
+    .gnb ul ul li{
+        border-bottom: 1px solid #999;
+    }
+}
+
+/*pc버전*/
+@media screen and (min-width:640px){
+    .header{
+        width: 100%;
+        height: 94px;
+        display: flex;
+        margin: auto;
+        background-color: #151515;
+        /* position: relative; */
+        /* position: fixed; */
+        position: sticky;
+        top: 0;
+    }
+    
+    .logo{
+        width: 20%;
+        display: block;
+        margin: 0;
+        padding-left: 5%;
+        float: left;
+    }
+    
+    /*GNB*/
+    .gnb{
+        color: #fff;
+        width: 50%;
+        height: 40px;
+        float: left;
+        /* background-color: #212121; */
+        margin-top: 54px;
+    }
+    .gnb>ul>li{
+        font-size: 15px;
+        font-family: "나눔고딕";
+        font-weight: bold;
+        float: left;
+        width: 33%;
+        line-height: 40px;
+        text-align: center;
+        position: relative;
+    }
+    .gnb ul ul{
+        width: 100%;
+        position: absolute;
+        background-color: #303030;
+        box-sizing: border-box;
+        display: none;
+    }
+    .gnb ul ul li{
+        border-bottom: 1px solid #999;
+    }
+}

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/header.css" type="text/css" rel="stylesheet">
+    <link href="css/content.css" type="text/css" rel="stylesheet">
+    <link href="css/footer.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/javascript.js"></script>
+    <script type="text/javascript">
+            function change1(){
+                document.getElementById("cry_wrap").style.display = "block";
+                document.getElementById("love_wrap").style.display = "none";
+                document.getElementById("moti_wrap").style.display = "none";
+            }
+            function change2(){
+                document.getElementById("cry_wrap").style.display = "none";
+                document.getElementById("love_wrap").style.display = "block";
+                document.getElementById("moti_wrap").style.display = "none";
+            }
+            function change3(){
+                document.getElementById("cry_wrap").style.display = "none";
+                document.getElementById("love_wrap").style.display = "none";
+                document.getElementById("moti_wrap").style.display = "block";
+            }
+    </script>
+    <title>Manta</title>
+    <style>
+        body, h1, h2, h3, ul, li, div, p, form, fieldset, legend{
+            margin:0;
+            padding:0
+        }
+        ul, li{
+    list-style: none;
+        }
+        a{
+            color:inherit;
+            text-decoration:none
+        }
+        .hide{
+            position:absolute;
+            left:-9999px;
+            top:-9999px
+        }
+        /* body{
+            background-color: #151515;
+        } */
+        /* .content{display: none;} */
+        /* .footer{
+            display: none;
+        } */
+        /* .cry_wrap{
+            display: none;
+        } */
+        .love_wrap{
+            display: none;
+        }
+        .moti_wrap{
+            display: none;
+        }
+        .text_under{
+            text-decoration: underline;
+            text-underline-position: under;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+            <h1 class="logo"><a href="index.html"><img src="images/logo.jpg" alt="로고"></a></h1>
+
+            <nav class="gnb">
+                <h2 class="hide">주요메뉴</h2>
+                <ul>
+                    <li><a href="index.html#content" id="movie">Movie</a></li>
+                    <li><a href="sub.html">Music</a></li>
+                    <li><a href="board.html">Board</a></li>
+                    <!-- <li><a href="#">PC</a></li>
+                    <li><a href="#" onclick="moblie()">Mobile</a></li> -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main_img" id="main_img">
+            <h2 class="hide">메인 이미지</h2>
+            <p class="main_text">지치거나 새로운 자극이 필요한 당신께 도움이 되길</p>
+        </div>
+
+        <div class="content" id="content">
+            <h2 class="hide">movie</h2>
+            <div class="movie_wrap">
+                <div class="movie_title">
+                    <ul class="movie_title_wrap">
+                        <li class="movie_title1" id="movie_title1"><a href="#">Cry</a></li>
+                        <li class="movie_title2" id="movie_title2"><a href="#">Love</a></li>
+                        <li class="movie_title3" id="movie_title3"><a href="#">motivation</a></li>
+                    </ul>
+                </div>
+
+                <!--Cry-->
+                <div class="cry_wrap" id="cry_wrap">
+                    <h3 class="hide">Cry</h3>
+                    <dl class="cry1">
+                        <img src="images/cry/movie_01.jpg">
+                        <dt>남자가 사랑할 때</dt>
+                        <dd>
+                            드라마/120분
+                        </dd>
+                    </dl>
+                    <dl class="cry2">
+                        <img src="images/cry/movie_02.jpg">
+                        <dt>사랑에 대한 모든 것</dt>
+                        <dd>
+                            멜로,로맨스/120분
+                        </dd>
+                    </dl>
+                    <dl class="cry3">
+                        <img src="images/cry/movie_03.jpg">
+                        <dt>안녕, 헤이즐</dt>
+                        <dd>
+                            드라마/125분
+                        </dd>
+                    </dl>
+                    <dl class="cry4">
+                        <img src="images/cry/movie_04.jpg">
+                        <dt>타이타닉</dt>
+                        <dd>
+                            멜로,로맨스/194분
+                        </dd>
+                    </dl>
+                    <dl class="cry5">
+                        <img src="images/cry/movie_05.jpg">
+                        <dt>7번 방의 선물</dt>
+                        <dd>
+                            코미디/127분
+                        </dd>
+                    </dl>
+                    <dl class="cry6">
+                        <img src="images/cry/movie_06.jpg">
+                        <dt>신과 함께:인과 연</dt>
+                        <dd>
+                            판타지/141분
+                        </dd>
+                    </dl>
+                    <dl class="cry7">
+                        <img src="images/cry/movie_07.jpg">
+                        <dt>나우 이즈 굿</dt>
+                        <dd>
+                            드라마/103분
+                        </dd>
+                    </dl>
+                    <dl class="cry8">
+                        <img src="images/cry/movie_08.jpg">
+                        <dt>이터널 선샤인</dt>
+                        <dd>
+                            메롤,로맨스/107분
+                        </dd>
+                    </dl>
+                </div>
+
+                <!--Love-->
+                <div class="love_wrap" id="love_wrap">
+                    <h3 class="hide">Love</h3>
+                    <dl class="love1">
+                        <img src="images/love/movie_01.jpg">
+                        <dt>어바웃 타임</dt>
+                        <dd>
+                            코미디,로맨스/123분
+                        </dd>
+                    </dl>
+                    <dl class="love2">
+                        <img src="images/love/movie_02.jpg">
+                        <dt>라라랜드</dt>
+                        <dd>
+                            드라마/127분
+                        </dd>
+                    </dl>
+                    <dl class="love3">
+                        <img src="images/love/movie_03.jpg">
+                        <dt>지금 만나러 갑니다</dt>
+                        <dd>
+                            멜로,로맨스/131분
+                        </dd>
+                    </dl>
+                    <dl class="love4">
+                        <img src="images/love/movie_04.jpg">
+                        <dt>미드나잇 선</dt>
+                        <dd>
+                            멜로,로맨스/194분
+                        </dd>
+                    </dl>
+                    <dl class="love5">
+                        <img src="images/love/movie_05.jpg">
+                        <dt>미 비포 유</dt>
+                        <dd>
+                            멜로,로맨스/110분
+                        </dd>
+                    </dl>
+                    <dl class="love6">
+                        <img src="images/love/movie_06.jpg">
+                        <dt>노트북</dt>
+                        <dd>
+                            멜로,로맨스/123분
+                        </dd>
+                    </dl>
+                    <dl class="love7">
+                        <img src="images/love/movie_07.jpg">
+                        <dt>뷰티 인사이드</dt>
+                        <dd>
+                            멜로,로맨스/127분
+                        </dd>
+                    </dl>
+                    <dl class="love8">
+                        <img src="images/love/movie_08.jpg">
+                        <dt>러브 액츄얼리</dt>
+                        <dd>
+                            멜로,로맨스/130분
+                        </dd>
+                    </dl>
+                </div>
+
+                <!--Motivation-->
+                <div class="moti_wrap" id="moti_wrap">
+                    <h3 class="hide">Motivation</h3>
+                    <dl class="moti1">
+                        <img src="images/motivation/movie_01.jpg">
+                        <dt>세얼간이</dt>
+                        <dd>
+                            코미디/141분
+                        </dd>
+                    </dl>
+                    <dl class="moti2">
+                        <img src="images/motivation/movie_02.jpg">
+                        <dt>아메리칸 셰프</dt>
+                        <dd>
+                            코미디/114분
+                        </dd>
+                    </dl>
+                    <dl class="moti3">
+                        <img src="images/motivation/movie_03.jpg">
+                        <dt>포레스트 검프</dt>
+                        <dd>
+                            드라마/142분
+                        </dd>
+                    </dl>
+                    <dl class="moti4">
+                        <img src="images/motivation/movie_04.jpg">
+                        <dt>록키 발보아</dt>
+                        <dd>
+                            액션/102분
+                        </dd>
+                    </dl>
+                    <dl class="moti5">
+                        <img src="images/motivation/movie_05.jpg">
+                        <dt>행복을 찾아서</dt>
+                        <dd>
+                            드라마/117분
+                        </dd>
+                    </dl>
+                    <dl class="moti6">
+                        <img src="images/motivation/movie_06.jpg">
+                        <dt>윌터의 상상은 현실이 된다</dt>
+                        <dd>
+                            모험/114분
+                        </dd>
+                    </dl>
+                    <dl class="moti7">
+                        <img src="images/motivation/movie_07.jpg">
+                        <dt>언터처블 : 1%의 우정</dt>
+                        <dd>
+                            코미디/112분
+                        </dd>
+                    </dl>
+                    <dl class="moti8">
+                        <img src="images/motivation/movie_08.jpg">
+                        <dt>위플래쉬</dt>
+                        <dd>
+                            드라마/106분
+                        </dd>
+                    </dl>
+                    <dl class="moti9">
+                        <img src="images/motivation/movie_09.jpg">
+                        <dt>버킷리스트</dt>
+                        <dd>
+                            모험/97분
+                        </dd>
+                    </dl>
+                    <dl class="moti10">
+                        <img src="images/motivation/movie_10.jpg">
+                        <dt>위플래쉬</dt>
+                        <dd>
+                            코미디/121분
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <p>Publishing & Developed by Jung Sang O</p>
+    </footer>
+</body>
+</html>

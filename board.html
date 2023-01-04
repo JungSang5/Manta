@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/header.css" type="text/css" rel="stylesheet">
+    <link href="css/board.css" type="text/css" rel="stylesheet">
+    <link href="css/footer.css" type="text/css" rel="stylesheet">
+    <title>board</title>
+    <style>
+        body, h1, h2, h3, ul, li, div, p, form, fieldset, legend{
+            margin:0;
+            padding:0
+        }
+        ul, li{
+    list-style: none;
+        }
+        a{
+            color:inherit;
+            text-decoration:none
+        }
+        .hide{
+            position:absolute;
+            left:-9999px;
+            top:-9999px
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo"><a href="index.html"><img src="images/logo.jpg" alt="로고"></a></h1>
+
+        <nav class="gnb">
+            <h2 class="hide">주요메뉴</h2>
+            <ul>
+                <li><a href="index.html#content" id="movie">Movie</a></li>
+                <li><a href="sub.html">Music</a></li>
+                <li><a href="board.html">Board</a></li>                    
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <main class="board_wrap">
+        <div class="title">
+            <p class="title1">익명게시판</p>
+            <div class="sub_title">
+                <p class="title2">자신만의 리스트를 소개해주세요.</p>
+                <p class="title3">글쓰기</p>
+            </div>
+        </div>
+
+        <div class="board">
+            <table class="list">
+                <tr class="list_title">
+                    <th class="no">번호</th>
+                    <th class="n_title">제목</th>
+                    <th class="w_date">날짜</th>
+                    <th class="cnt">조회수</th>
+                </tr>
+            </table>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <p>Publishing & Developed by Jung Sang O</p>
+    </footer>
+</body>
+</html>
